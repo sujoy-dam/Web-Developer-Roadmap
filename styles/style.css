@@ -49,9 +49,13 @@ body {
     border: none;
     border-radius: 8px;
     background-color: #0D1321;
-    color: white;
-    font-size: 20px;
+    /* color: white; */
+    font-size: 18px;
     font-weight: 500;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
 }
 
 /* banner section end  */
@@ -179,6 +183,7 @@ body {
 .target-section-title p {
     width: 60%;
     text-align: center;
+    margin: 30px 0px;
 }
 
 .target-section-category {
@@ -204,8 +209,40 @@ body {
     background-color: #FFDF000D;
 }
 .secondary-description{
+    margin-bottom: 20px;
 }
 .secondary-title{
-    margin: 30px 0px 20px 0px;
+    margin: 15px 0px 15px 0px;
 
+}
+/* target section end  */
+.support-section{
+    max-width: 1100px;
+    border: 2px solid red;
+    margin: 20px auto;
+    background-image:url("../assets/handshake.jpg");
+    border-radius: 8px;
+    padding: 50px;
+}
+.support-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.support-container p{
+    margin: 15px 0px 30px 0px;
+}
+.input-container{
+    width: 100%;
+    text-align: center;
+}
+.text-input{
+    width: 35%;
+    height: 45px;
+    padding-left: 10px;
+    border-radius: 8px;
+}
+.submit-input{
+    padding: 12px 20px;
+    border-radius: 8px;
 }
