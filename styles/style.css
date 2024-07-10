@@ -105,3 +105,34 @@ body{
     font-size: 16px;
     font-weight: 600;
 }
+/* why web development section end  */
+.inspiration-section{
+    max-width: 1100px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid red;
+}
+.inspiration-section-title{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.inspiration-section h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+.inspiration-section-title p{
+    width: 60%;
+    margin: 20px 0px 40px 0px;
+}
+.inspiration-section-video{
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 16px;
+}
+/* inspire section end  */
